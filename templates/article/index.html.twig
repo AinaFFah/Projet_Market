@@ -1,0 +1,148 @@
+
+<div id="modal_ajout_article" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-xl ">
+        <div class="modal-content">
+            <div class="modal-header bg-dark">
+                <h6 class="modal-title">Ajout article</h6>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <i class="ti-close"></i>
+                </button>
+            </div>
+            <h1>mbola tsy misy</h1>
+        </div>
+    </div>
+</div>
+
+
+
+<div id="modal_modif_article" class="modal fade" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-xl ">
+        <div class="modal-content">
+            <div class="modal-header bg-dark">
+                <h6 class="modal-title">Modification article !!</h6>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <i class="ti-close"></i>
+                </button>
+            </div>
+
+            <div id="modal_modif_article_content">
+                <div class="modal-body text-center pb-5"  style="height: 70vh">
+                    <div  class="spinner-border mt-5 text-info" role="status">
+                        <span class="sr-only mt-5 m-5">Chargement...</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="_teset" class="modal fade" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-xl  modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header bg-dark">
+                <h6 class="modal-title">Info article !!</h6>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <i class="ti-close"></i>
+                </button>
+            </div>
+
+            <div >
+                <h1>mbola tsy misy detail</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="modal_detail_article" class="modal fade" tabindex="-1" role="dialog" data-backdrop="static" data-keyboard="false" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-scrollable modal-dialog-centered ">
+        <div class="modal-content">
+            <div class="modal-header bg-dark">
+                <h6 class="modal-title">Info article !!</h6>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <i class="ti-close"></i>
+                </button>
+            </div>
+            <div class="modal-body" id="modal_detail_article_content">
+                <div style="height: 80vh">
+                    <div style="width: 100%; height: 100%" class="m-auto text-center">
+                        <div class="spinner-border text-dark" style="line-height: 100%" role="status">
+                            <span class="sr-only m-5">Chargement...</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<div id="modal_modif_tarif_client" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-xl ">
+        <div class="modal-content">
+            <div class="modal-header bg-dark">
+                <h6 class="modal-title">Tarif Client</h6>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <i class="ti-close"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+<div class="modal fade" tabindex="-1" role="dialog" id="modal_import_article">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Import Article</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-7">
+                        <h1 class="underline">Règle d'importation</h1>
+
+                        <ul class="pl-3 p-2 text-muted text-justify">
+
+                            <li>. Respectez l'ordre des colonnes<button type="button" class="btn btn-outline-success ml-4 p-2" data-toggle="modal" data-target="#example_import_article">( Voir l'image )</button></li>
+                            <li>. Ligne numéro 1 -> Titre</li>
+                            <li>. Les données commenceront à la ligne numéro 2</li>
+                            <li>. Les <span class="text-danger font-weight-bold text-shadow">FAMILLE</span> doivent être pré-rempli <span class="text-danger font-weight-bold text-shadow">MANUELLEMENT</span>. avant l'import des article </li>
+                            <li>. Les <span class="text-danger font-weight-bold text-shadow">DONNEES</span> doivent être des <span class="text-danger font-weight-bold text-shadow">VALEURS</span> et non pas des formules qui sont propres à Excel</li>
+                        </ul>
+
+                    </div>
+                    <div class="col-5 text-center">
+                        <h1>mbola tsy misy</h1>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" tabindex="-1" role="dialog" id="example_import_article">
+    <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+        <div class="text-center">
+            <img src="{{ asset('media/img/model_excel/article.png') }}" class="dropShadow w-100 m-auto border-radius-1" alt="">
+        </div>
+    </div>
+</div>

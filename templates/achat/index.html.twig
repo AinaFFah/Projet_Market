@@ -1,0 +1,55 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}ToliaFafah{% endblock %}
+{% block pageTitle %} Achat {% endblock %}
+
+{% block body %}
+
+<h4>Achat</h4>
+ <a href=""> Achat Externe</a>
+ <a href="">Achat Local</a>
+
+{#{{form_start(AchatLocalForm)}}    
+
+{{form_end(AchatLocalForm)}}
+<button type="submit" class="btn btn-success"> Add </button>
+
+#}
+
+
+
+<!-- Nav tabs -->
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Profile</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="messages-tab" data-bs-toggle="tab" data-bs-target="#messages" type="button" role="tab" aria-controls="messages" aria-selected="false">Messages</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="settings-tab" data-bs-toggle="tab" data-bs-target="#settings" type="button" role="tab" aria-controls="settings" aria-selected="false">Settings</button>
+  </li>
+</ul>
+
+<!-- Tab panes -->
+<div class="tab-content">
+  <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum ut eveniet ipsum blanditiis reprehenderit error quod nihil expedita animi. Perferendis nobis minus libero ea corporis ex illum vero saepe atque.
+    Esse autem quam ex commodi eius. Quis consequatur repudiandae esse debitis inventore maxime eligendi tempora veniam quas impedit, facere doloremque, quidem minus maiores fugit quasi animi id tempore repellat facilis.
+    Repellendus fuga deleniti, nulla adipisci provident fugiat! Iste, similique unde, delectus ipsum vel et incidunt possimus quod natus illo consectetur quam molestiae obcaecati ea consequuntur non minus qui id molestias.
+  </div>
+  <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+  <div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab">...</div>
+  <div class="tab-pane" id="settings" role="tabpanel" aria-labelledby="settings-tab">...</div>
+</div>
+
+
+
+
+  
+
+{% endblock %}
+
